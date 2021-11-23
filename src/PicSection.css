@@ -1,4 +1,4 @@
-[id*="image"] {
+[id^="image"] {
   position: absolute;
   border-radius: 8.95px;
 }

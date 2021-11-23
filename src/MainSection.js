@@ -1,5 +1,6 @@
 import PicSection from "./PicSection";
 import "./MainSection.css";
+import Cards from "./Cards";
 export default function MainSection() {
   return (
     <>
@@ -9,6 +10,7 @@ export default function MainSection() {
         Join unique interactive activities led by one-of-a-kind hosts—all
         without leaving home.
       </p>
+      <Cards />
     </>
   );
 }
