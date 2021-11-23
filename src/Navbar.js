@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./css/Navbar.css";
 import airbnbLogo from "./img/airbnb-transparent.png";
 export default function Navbar() {
   return (

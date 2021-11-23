@@ -1,4 +1,4 @@
-import "./PicSection.css";
+import "./css/PicSection.css";
 import image22 from './img/image 22.png'
 import image23 from './img/image 23.png'
 import image24 from './img/image 24.png'

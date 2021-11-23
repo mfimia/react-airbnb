@@ -1,7 +1,7 @@
 import image1 from "./img/image 12.png";
 import image2 from "./img/wedding-photography 1.png";
 import image3 from "./img/mountain-bike 1.png";
-import "./Cards.css";
+import "./css/Cards.css";
 export default function Cards() {
   return (
     <div>

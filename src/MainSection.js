@@ -1,5 +1,5 @@
 import PicSection from "./PicSection";
-import "./MainSection.css";
+import "./css/MainSection.css";
 import Cards from "./Cards";
 export default function MainSection() {
   return (
