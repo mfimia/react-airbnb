@@ -1,13 +1,13 @@
 import "./css/PicSection.css";
-import image22 from './img/image 22.png'
-import image23 from './img/image 23.png'
-import image24 from './img/image 24.png'
-import image25 from './img/image 25.png'
-import image26 from './img/image 26.png'
-import image27 from './img/image 27.png'
-import image28 from './img/image 28.png'
-import image29 from './img/image 29.png'
-import image30 from './img/image 30.png'
+import image22 from "./img/image 22.png";
+import image23 from "./img/image 23.png";
+import image24 from "./img/image 24.png";
+import image25 from "./img/image 25.png";
+import image26 from "./img/image 26.png";
+import image27 from "./img/image 27.png";
+import image28 from "./img/image 28.png";
+import image29 from "./img/image 29.png";
+import image30 from "./img/image 30.png";
 
 export default function PicSection() {
   return (
