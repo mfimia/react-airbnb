@@ -1,5 +1,4 @@
 import "./Contact.css";
-// import pic from "./img/image 12.png";
 export default function Contact({ img, name, phone, email }) {
   return (
     <>
@@ -7,15 +6,15 @@ export default function Contact({ img, name, phone, email }) {
         <img src={img} alt="" />
         <h3>{name}</h3>
         <div className="info-group">
-          <img src={img} alt="" />
+          <img src="" alt="" />
           <p>{phone}</p>
         </div>
         <div className="info-group">
-          <img src={img} alt="" />
+          <img src="" alt="" />
           <p>{email}</p>
         </div>
         <div>
-          <img src={img} alt="" />
+          <img src="" alt="" />
         </div>
       </div>
     </>
