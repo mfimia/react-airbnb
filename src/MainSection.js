@@ -10,7 +10,7 @@ export default function MainSection() {
         image={card.coverImg}
         rate={card.stats.rating}
         reviewCount={card.stats.reviewCount}
-        country="USA"
+        country={card.location}
         description={card.description}
         cost={card.price}
         cardId={card.id}
