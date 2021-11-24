@@ -1,17 +1,28 @@
 import "./css/Cards.css";
-let counter = 0;
+
 export default function Cards(props) {
-  counter++;
+  let badgeText;
+  if (props.card.openSpots === 0) {
+    badgeText = "SOLD OUT";
+  } else if (props.card.location === "Online") {
+    badgeText = "ONLINE";
+  }
   return (
-    <div>
-      <img src={props.image} id={`large-image${counter}`} alt="Airbnb card" />
-      <div id={`image${counter}-caption`}>
+    <div className="card">
+      <img
+        src={props.card.coverImg}
+        id={`large-image${props.card.id}`}
+        alt="Airbnb card"
+      />
+      <div id={`image${props.card.id}-caption`}>
+        {badgeText && <div className="card--badge">{badgeText}</div>}
         <div className="top-title">
-          ⭐ {props.rate} ({props.weirdNumber}) - {props.country}
+          ⭐ {props.card.stats.rating} ({props.card.stats.reviewCount}) -{" "}
+          {props.card.location}
         </div>
-        <div className="mid-title">{props.description}</div>
+        <div className="mid-title">{props.card.title}</div>
         <div className="bot-title">
-          <b>From ${props.cost} /</b> person
+          <b>From ${props.card.price} /</b> person
         </div>
       </div>
     </div>
