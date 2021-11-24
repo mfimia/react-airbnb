@@ -13,7 +13,8 @@ export default function MainSection() {
         country={card.location}
         title={card.title}
         cost={card.price}
-        cardId={card.id}
+        // Adding unique key property to avoid React error showing up in console
+        key={card.id}
       />
     );
   });
