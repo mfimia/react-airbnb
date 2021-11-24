@@ -1,13 +1,17 @@
 import "./css/Cards.css";
-let counter = 0;
+
 export default function Cards(props) {
-  counter++;
+  console.log(props);
   return (
     <div>
-      <img src={props.image} id={`large-image${counter}`} alt="Airbnb card" />
-      <div id={`image${counter}-caption`}>
+      <img
+        src={props.image}
+        id={`large-image${props.cardId}`}
+        alt="Airbnb card"
+      />
+      <div id={`image${props.cardId}-caption`}>
         <div className="top-title">
-          ⭐ {props.rate} ({props.weirdNumber}) - {props.country}
+          ⭐ {props.rate} ({props.reviewCount}) - {props.country}
         </div>
         <div className="mid-title">{props.description}</div>
         <div className="bot-title">
