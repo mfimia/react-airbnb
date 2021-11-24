@@ -7,16 +7,9 @@ export default function MainSection() {
   const updatedCards = cardData.map((card) => {
     return (
       <Cards
-        image={card.coverImg}
-        rate={card.stats.rating}
-        reviewCount={card.stats.reviewCount}
-        country={card.location}
-        title={card.title}
-        cost={card.price}
         // Adding unique key property to avoid React error showing up in console
         key={card.id}
-        cardID={card.id}
-        openSpots={card.openSpots}
+        card={card}
       />
     );
   });
