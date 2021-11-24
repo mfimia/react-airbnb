@@ -16,6 +16,7 @@ export default function MainSection() {
         // Adding unique key property to avoid React error showing up in console
         key={card.id}
         cardID={card.id}
+        openSpots={card.openSpots}
       />
     );
   });
