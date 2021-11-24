@@ -15,6 +15,7 @@ export default function MainSection() {
         cost={card.price}
         // Adding unique key property to avoid React error showing up in console
         key={card.id}
+        cardID={card.id}
       />
     );
   });

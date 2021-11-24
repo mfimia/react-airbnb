@@ -4,8 +4,12 @@ export default function Cards(props) {
   console.log(props);
   return (
     <div>
-      <img src={props.image} id={`large-image${props.key}`} alt="Airbnb card" />
-      <div id={`image${props.key}-caption`}>
+      <img
+        src={props.image}
+        id={`large-image${props.cardID}`}
+        alt="Airbnb card"
+      />
+      <div id={`image${props.cardID}-caption`}>
         <div className="top-title">
           ⭐ {props.rate} ({props.reviewCount}) - {props.country}
         </div>
