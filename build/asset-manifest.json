@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.21076cd9.chunk.css",
+    "main.js": "/static/js/main.a12a6f6e.chunk.js",
+    "main.js.map": "/static/js/main.a12a6f6e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2555d8a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2555d8a1.js.map",
+    "static/js/2.fa24590a.chunk.js": "/static/js/2.fa24590a.chunk.js",
+    "static/js/2.fa24590a.chunk.js.map": "/static/js/2.fa24590a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.21076cd9.chunk.css.map": "/static/css/main.21076cd9.chunk.css.map",
+    "static/js/2.fa24590a.chunk.js.LICENSE.txt": "/static/js/2.fa24590a.chunk.js.LICENSE.txt",
+    "static/media/airbnb-transparent.ed8938bb.png": "/static/media/airbnb-transparent.ed8938bb.png",
+    "static/media/image 12.ef762178.png": "/static/media/image 12.ef762178.png",
+    "static/media/image 22.370b27ba.png": "/static/media/image 22.370b27ba.png",
+    "static/media/image 23.4c7780c9.png": "/static/media/image 23.4c7780c9.png",
+    "static/media/image 24.a85cdf4a.png": "/static/media/image 24.a85cdf4a.png",
+    "static/media/image 25.7eb1e511.png": "/static/media/image 25.7eb1e511.png",
+    "static/media/image 26.802efbb0.png": "/static/media/image 26.802efbb0.png",
+    "static/media/image 27.c6bcd72b.png": "/static/media/image 27.c6bcd72b.png",
+    "static/media/image 28.31dded06.png": "/static/media/image 28.31dded06.png",
+    "static/media/image 29.94fd1245.png": "/static/media/image 29.94fd1245.png",
+    "static/media/image 30.ff2292bd.png": "/static/media/image 30.ff2292bd.png",
+    "static/media/mountain-bike 1.47dd0f41.png": "/static/media/mountain-bike 1.47dd0f41.png",
+    "static/media/wedding-photography 1.ad9ec0bd.png": "/static/media/wedding-photography 1.ad9ec0bd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2555d8a1.js",
+    "static/js/2.fa24590a.chunk.js",
+    "static/css/main.21076cd9.chunk.css",
+    "static/js/main.a12a6f6e.chunk.js"
+  ]
+}
