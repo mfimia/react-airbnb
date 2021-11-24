@@ -13,7 +13,7 @@ export default function Cards(props) {
         <div className="top-title">
           ⭐ {props.rate} ({props.reviewCount}) - {props.country}
         </div>
-        <div className="mid-title">{props.description}</div>
+        <div className="mid-title">{props.title}</div>
         <div className="bot-title">
           <b>From ${props.cost} /</b> person
         </div>

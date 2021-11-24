@@ -11,7 +11,7 @@ export default function MainSection() {
         rate={card.stats.rating}
         reviewCount={card.stats.reviewCount}
         country={card.location}
-        description={card.description}
+        title={card.title}
         cost={card.price}
         cardId={card.id}
       />
